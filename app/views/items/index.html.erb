@@ -10,7 +10,7 @@
         <tr>
           <td>
             <% item.item_images.each do |item_image| %>
-              <%= attachment_image_tag item_image, :image, size: "130x100" %>
+              <%= attachment_image_tag item_image, :image, size: "130x100", format: "jpg" %>
             <% end %>
           </td>
         </tr>
